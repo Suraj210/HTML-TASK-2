@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+  </head>
+  <body>
+    <center>
+      <form
+        style="
+          margin-top: 200px;
+          border: 1px solid black;
+          border-radius: 8px;
+          display: inline-block;
+          padding: 20px;
+        "
+        action=""
+      >
+        <input
+          style="
+            display: block;
+            padding: 5px;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 5px;
+          "
+          type="text"
+          placeholder="Username"
+          maxlength="10"
+          minlength="6"
+          required
+        />
+        <br />
+        <input
+          style="
+            display: block;
+            padding: 5px;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 5px;
+          "
+          type="password"
+          placeholder="Password"
+          maxlength="10"
+          minlength="6"
+          required
+        />
+        <br />
+        <input
+          style="
+            display: block;
+            padding: 5px;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 5px;
+          "
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <br />
+        <input type="radio" id="male" name="gender" required />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" required />
+        <label for="female">Female</label>
+        <br />
+        <br />
+
+        <input type="checkbox" id="terms" required />
+        <label for="terms">Agree with Terms & Conditions</label>
+        <br />
+        <br />
+        <button
+          style="
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            outline: none;
+            border: 1px solid green;
+            border-radius: 10px;
+          "
+        >
+          Submit
+        </button>
+      </form>
+    </center>
+  </body>
+</html>
